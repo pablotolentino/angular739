@@ -1,4 +1,4 @@
-# Aplicación en Angular versión 7.3.9
+# Aplicación en Angular versión 7.3.9 y bootstrap
 Instalación y creación de un proyecto en angular versión 7.3.9
 ## Instalación de herramientas
 ### Instalar NodeJs
@@ -24,8 +24,9 @@ npm install -g @angular/cli@7.3.9
 ```
 
 ## Trabajar con Angular
-### Crar un nuevo proyecto
+### Crear un proyecto
 Desde la consola de windows ejecutar el siguiente comando: 
 ``` 
 ng new AngularExperimental
 ```
+### Crear un componente

@@ -1,0 +1,14 @@
+<p>
+  component-example works! 
+</p>
+<div *ngIf="show" [class.content]="show">
+  <ul>
+    <li *ngFor="let color of colors; let i=index; let o=odd; let e=even; let l=last;" [ngStyle]="{color: color, 'font-style': style}" [ngClass]="{odd:o, even: e, last: l}">
+     {{i}} -- {{color}}
+     <div [ngSwitch]="color">
+       <p *ngSwitchCase="'blue'">I am blue color</p>
+       <p *ngSwitchDefault>I am not blue color</p>
+     </div>
+    </li>
+  </ul>
+</div>
