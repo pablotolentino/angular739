@@ -15,13 +15,14 @@ npm install -g typescript
 ```
 ### Instalar Visual Studio Code
 Descargar el instalador desde https://code.visualstudio.com/download
-### Instalar vscode-icons
-Descargar el instalador desde https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
 ### Instalar Angular CLI
 Desde la consola de windows ejecutar el siguiente comando: 
 ```
 npm install -g @angular/cli@7.3.9
 ```
+## Extras
+### Instalar vscode-icons
+Descargar el instalador desde https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
 
 ## Trabajar con Angular
 ### Crear un proyecto
